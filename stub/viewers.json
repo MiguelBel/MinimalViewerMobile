@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Meneame",
+    "identifier": "meneame",
+    "url": "https://6zlh88pn7f.execute-api.us-west-2.amazonaws.com/production/meneame",
+    "type": "story",
+    "relations": {
+      "Root": "headlines",
+      "ElementKey":"url",
+      "Title": "title",
+      "Subtitle": "description",
+      "Link":"url"
+    }
+  },
+  {
+    "name": "Hacker News",
+    "identifier": "hacker_news",
+    "url": "https://polar-ridge-70990.herokuapp.com",
+    "type": "headline",
+    "relations": {
+      "Title": "title",
+      "ElementKey":"id",
+      "Link":"url"
+    }
+  },
+  {
+    "name": "Empty",
+    "identifier": "empty",
+    "url": "https://polar-ridge-70990.herokuapp.com",
+    "type": "headline",
+    "relations": {
+      "Title": "title",
+      "ElementKey":"id",
+      "Link":"url"
+    }
+  }
+]

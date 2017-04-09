@@ -1,0 +1,3 @@
+rootProject.name = 'MinimalViewer'
+
+include ':app'
